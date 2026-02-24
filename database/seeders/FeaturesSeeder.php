@@ -15,7 +15,7 @@ class FeaturesSeeder extends Seeder
     {
         DB::table('features') ->insert([
             ['name' => 'Model', 'description' => 'Performs requests and provides output from the database to send to the controller.',],
-            ['name' => 'View', 'description' => 'Controls the UI and what the user sees using .blade files.',],
+            ['name' => 'View', 'description' => 'Controls the UI and what the user sees using .blade files. Contains HTML and PHP Code',],
             ['name' => 'Controller', 'description' => 'Performs requests to the model, and displays the output to the view.',],
             ['name' => 'Routes', 'description' => 'It is how the framework/website maps HTTP requests to the appropriate controllers and views.',],
             ['name' => 'Middleware', 'description' => 'Validates or checks the request before allowing access to the controller.',],
